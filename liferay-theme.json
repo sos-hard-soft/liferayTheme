@@ -1,0 +1,11 @@
+{
+  "LiferayTheme": {
+    "appServerPath": "/home/mabsalhi.sos/liferay-ce-portal-7.0-ga3/tomcat-8.0.32",
+    "deployPath": "/home/mabsalhi.sos/liferay-ce-portal-7.0-ga3/deploy",
+    "url": "http://localhost:8080",
+    "appServerPathPlugin": "/home/mabsalhi.sos/NetBeansProjects/sos-ump-bs-3-theme/.web_bundle_build",
+    "deployed": true,
+    "pluginName": "sos-ump-bs-3-theme",
+    "webBundleDir": "watching"
+  }
+}
