@@ -2543,7 +2543,7 @@ shortcodes page css
 }
 
 
-#lang-selector-bar .lexicon-icon-ar-sa { background: url(http://localhost:8080/o/sos-ump-bs-3-theme/images/marocFlag.png); background-repeat: no-repeat; margin-top: 3px; }
+#lang-selector-bar .lexicon-icon-ar-sa { background: url(../images/marocFlag.png); background-repeat: no-repeat; margin-top: 3px; }
 #lang-selector-bar .lexicon-icon-ar-sa rect { display: none; }
 #lang-selector-bar .lexicon-icon-ar-sa path {display: none;}
 
@@ -2563,6 +2563,11 @@ shortcodes page css
     border: none;
 }
 
+.navbar-nav li.active{
+    border : none;
+    text-decoration: none;
+}
+
 #navbar_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet{
     padding: 0px;
 }
@@ -2579,3 +2584,20 @@ shortcodes page css
 }
 .breadcrumb>li{display:inline-block}
 #breadcrumb .portlet-content{padding: 0px; background: none; border: none;}
+
+#wrapper {
+    padding-bottom: 0;
+    padding-top: 0;
+    position: relative;
+}
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+header .user-avatar-image{
+    float: left;
+    padding-right: 10px;
+}

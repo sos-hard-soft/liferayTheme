@@ -11,7 +11,7 @@
 <@liferay_util["include"] page=body_top_include />
 <@liferay.control_menu />
 <body class="homepage">
-
+<div id="wrapper" class="container-fluid">
     <header id="header">
         <div class="top-bar">
             <div class="container">
@@ -26,14 +26,14 @@
                         </div>
                     </div>
                     <div class="col-sm-4 col-xs-8">
-                        <div class="social">
+                        
                             <#if is_setup_complete>
 					
                          
-					<div class="personal">
+					
 						<@liferay.user_personal_bar />
-					</div>
-				</#if></div></div>
+			
+				</#if></div>
                     <div class="col-sm-4 col-xs-12">
                        <div class="social">
                            
@@ -122,7 +122,7 @@
 <@liferay_util["include"] page=body_bottom_include />
 
 <@liferay_util["include"] page=bottom_include />
-
+</div>
 </body>
 
 </html>
